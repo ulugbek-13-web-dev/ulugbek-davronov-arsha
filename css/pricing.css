@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+.pricing-container{
+    display: flex;
+    color:white;
+    justify-content: center;
+}
+.pricing-card:nth-child(2){
+    border-top: 5px solid #47b2e4;
+    transform: translateY(-15px);
+}
+.pricing-card{
+    width: 25%;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.2);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 25px 15px;
+}
+.pricing-card h3{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #37517e;
+    font-family: 'Jost',sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.pricing-card h2{
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.pricing-card h2 span{
+    font-size: 28px;
+    color: #37517e;
+    font-family: 'Jost',sans-serif;
+    
+}
+.pricing-card p{
+    color: #47b2e4;
+    font-size: 18px;
+    display: block;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    margin-top: -30px;
+}
+.pricing-card ul{
+    margin-top: 50px;
+}
+.pricing-card ul li{
+    list-style: none;
+    color: #7c7c7c;
+    padding: 10px 0 10px 30px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans',sans-serif;
+}
+.pricing-card li i{
+    color: rgb(25, 218, 25);
+}
+.pricing-btn button{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #47b2e4;
+    color: #47b2e4;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: all 0.5s ease;
+}
+.pricing-card:nth-child(2) button{
+    background-color: #47b2e4;
+    color: white;
+}
+.pricing-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pricing-card:nth-child(1) button:hover,
+.pricing-card:nth-child(3) button:hover{
+    background-color: #47b2e4;
+    color: white;
+}
+.pricing-card:nth-child(2) button:hover{
+    background-color: #197ba8
+}
+

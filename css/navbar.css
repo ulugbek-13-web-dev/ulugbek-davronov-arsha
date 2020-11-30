@@ -1,0 +1,85 @@
+nav{
+    height: 6rem;
+    width: 100vw;
+    background-color: rgb(55,81,126);
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+/*Styling logo*/
+.logo{
+    padding:1vh 6vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    line-height: 6rem;
+    justify-content: center;
+}
+.logo h2 {
+    font-family: 'Goldman', cursive;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*Styling Links*/
+.nav-links{
+    display: flex;
+    list-style: none; 
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: capitalize;
+    margin-right: 100px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #f2f5f7;
+}
+.nav-links li a:hover {
+    color: #47b2e4;
+}
+.nav-links li {
+    position: relative;
+    line-height:3rem;
+    padding: 0 1vh;
+}
+
+/*Styling Buttons*/
+
+.join-button{
+    color: white;
+    background-color: transparent;
+    border: 1.5px solid #47b2e4;
+    border-radius: 2em;
+    padding: 0.6rem 1.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+}
+.join-button:hover {
+    color: #f2f5f7;
+    background-color: transparent;
+    border:1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+

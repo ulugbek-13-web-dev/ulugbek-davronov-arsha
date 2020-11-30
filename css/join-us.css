@@ -1,0 +1,48 @@
+.join-us{
+    margin-top: 5vh;
+    background-color: #f3f5fa;
+    padding: 3vh 0;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+.subscribe form{
+    width: 90%;
+    display: flex ;
+}
+.subscribe input{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.2);
+}
+input::placeholder{
+    position: relative;
+    left: 50px;
+}
+.subscribe button{
+    width: 30%;
+    height: 50px;
+    outline: none;
+    background-color: #47b2e4;
+    border-radius: 25px;
+    border: none;
+    margin-left: -50px;
+    color: white;
+}
+
+@media screen and (min-width:768px){
+    .subscribe form{
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    .subscribe input,
+    .subscribe button{
+        height: 35px!important;
+    }
+}

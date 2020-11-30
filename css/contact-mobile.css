@@ -1,0 +1,21 @@
+@media screen and (max-width:768px){
+    .contact-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .my-address{
+        width: 90%;
+        margin-top: 40px;
+        
+    }
+    .send-message{
+        width: 90%;
+        margin-top: 40px;
+        margin-left: 0px!important;
+        padding: 5vh 0;
+    }
+    .map-address iframe{
+        width: 100%;
+    }
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+
+.portfolio-section{
+    width: 100%;
+}
+.portfolio-section ul{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    background-color:transparent;
+    margin-top: 20px;
+}
+.portfolio-section ul li{
+    list-style: none;
+    background: transparent;
+    color: #7c7c7c;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    width: 80px;
+    text-align: center;
+}
+.portfolio-section ul li:hover{
+    background: #47b2e4;
+    color: #fff;
+}
+.portfolio-section ul li.active{
+    background-color: #47b2e4;
+    color: #fff;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemBox{
+    position: relative;
+    width: 30%;
+    height: 450px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.sarlavha{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sarlavha h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    line-height: 1.2;
+}
+.sarlavha h2::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: rgb(192, 190, 190);
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.sarlavha h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.sarlavha p{
+    color: #7c7c7c;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    position: relative;
+    width: 80%;
+    line-height: 25px;
+}

@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    height: 80vh;
+    z-index: -999;
+    background-color: #37517e;
+    color: #f2f5f7;
+}
+nav{
+    position: fixed;
+    transition:all 0.5s ease;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.header-elemnts{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+.header-elemnts .header-text{
+    position: relative;
+    height: 60vh;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-text .header-text-info{
+    position: relative;
+    width: 70%;
+}
+.header-text-info h1{
+    font-family: 'Jost',sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    color: white;
+}
+.header-text-info p{
+    font-size: 18px;
+    color: rgb(218, 216, 216);
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Jost',sans-serif;
+}
+.header-text .header-text-btn{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    margin-top: 5%;
+}
+.header-text-btn .first-btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 10vh;
+    background-color: #61DAFB;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: white;
+}
+.header-text-btn .first-btn:hover{
+    background-color: transparent;
+    border: 1px solid #61DAFB;
+    color: white;
+    transition: all 0.5s ease;
+}
+.header-text-btn .second-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: -70px;
+}
+.second-btn span{
+    position: relative;
+    top: -5px;
+}
+.second-btn i{
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+}
+.header-elemnts .header-image{
+    position: relative;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-image img{
+    width: 70%;
+}
+.header-elemnts.kurinmas{
+    display: none;
+}

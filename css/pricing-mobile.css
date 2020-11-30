@@ -1,0 +1,10 @@
+@media screen and (max-width:800px){
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-card{
+        width: 60%;
+    }
+}

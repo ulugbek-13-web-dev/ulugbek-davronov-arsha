@@ -1,0 +1,14 @@
+@media screen and (max-width:1000px){
+    .team-card{
+        width: 80%;
+    }
+    .team-card-img{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-card img{
+        width: 90%;
+    }
+}

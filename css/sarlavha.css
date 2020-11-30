@@ -1,0 +1,37 @@
+.sarlavha{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}
+.sarlavha h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    line-height: 1.2;
+}
+.sarlavha h2::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: rgb(192, 190, 190);
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.sarlavha h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}

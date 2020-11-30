@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+.skills-progress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.skills-image{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.skills-image img{
+    width: 80%;
+}
+.skills-text-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-text-title h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+    width: 80%;
+}
+.skills-text-title h3{
+    font-family: "Open Sans", sans-serif;
+    color: #7c7c7c;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+}
+.skills-bar{
+    margin: 20px auto;
+    color: #7c7c7c;
+    width: 75%;
+}
+.skills-bar li{
+    margin: 20px 0;
+    transition: 0.5s;
+    list-style: none;
+}
+.bar{
+    background: #e8edf5;
+    display: block;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.bar span{
+    height: 15px;
+    float: left;
+}
+.bar-text{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-text p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #7c7c7c;
+    text-transform: uppercase;
+}
+#html-css{
+    width: 85%;
+    animation: animatsiya-html 4s;
+    background: #37517e;
+}
+#bootstrap{
+    width: 80%;
+    animation: animatsiya-bootstrap 6s;
+    background: #37517e;
+}
+#js{
+    width: 70%;
+    animation: animatsiya-js 8s;
+    background: #37517e;
+}
+#vue{
+    width: 75%;
+    animation: animatsiya-vue 10s;
+    background: #37517e;
+
+}
+#node{
+    width: 60%;
+    animation: animatsiya-node 12s;
+    background: #37517e;
+
+}
+@keyframes animatsiya-html{
+    0%{
+        width: 0%;
+    }
+    85%{
+        width: 85%;
+    }
+}
+@keyframes animatsiya-bootstrap{
+    0%{
+        width: 0%;
+    }
+    80%{
+        width: 80%;
+    }
+}
+@keyframes animatsiya-js{
+    0%{
+        width: 0%;
+    }
+    70%{
+        width: 70%;
+    }
+}
+@keyframes animatsiya-vue{
+    0%{
+        width: 0%;
+    }
+    75%{
+        width: 75%;
+    }
+}
+@keyframes animatsiya-node{
+    0%{
+        width: 0%;
+    }
+    60%{
+        width: 60%;
+    }
+}
+li:hover{
+    opacity: 0.9;
+    transform: translateX(5px);
+    transition: 0.5s;
+}

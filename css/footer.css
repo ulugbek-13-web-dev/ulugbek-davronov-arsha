@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+footer{
+    background-color: #f3f5fa;
+    padding: 10vh 0;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-arsha{
+    width: 25%;
+    padding: 70px 0;
+}
+.footer-arsha ul li,.mail-phone{
+    padding: 4px;
+    margin-left: 5%;
+}
+.footer-arsha li,
+.mail-phone h3{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    color: #7c7c7c;
+}
+.useful-links{
+    width: 25%;
+}
+.useful-links p,
+.our-services p,
+.social-networks h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #37517e;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Jost", sans-serif;
+}
+.useful-links li,
+.our-services li,
+.social-networks li,
+.social-networks p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    color: #7c7c7c;
+    padding: 10px 0;
+}
+.useful-links li i,
+.our-services li i,
+.social-networks li i{
+    font-size: 10px;
+    color: #47b2e4;
+}
+.social-networks li i{
+    background-color: #47b2e4;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.our-services{
+    width: 25%;
+}
+.social-networks{
+    width: 25%;
+}
+.social-networks ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
